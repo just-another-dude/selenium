@@ -1,6 +1,6 @@
 The task - please use selenium web driver with Python.
 
-- Create at list one page-object for the test
+- Create at least one page-object for the test
 
 * Search for “Ynetnews” ( Israeli news website in English - www.ynetnews.com) in google
 
