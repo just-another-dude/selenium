@@ -1,5 +1,3 @@
-# Selenium
-
 # Standard Library Modules
 import re  # Used for regex
 import time  # Used for sleep.
