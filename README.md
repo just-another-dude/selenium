@@ -2,7 +2,6 @@
 Here you will find a task for Selenium - a browser automation tool.  
 The program works with the "selenium" module in Python 3 and includes all of the main methods for automating browser functionality.
 For a complete newbie in Selenium this task may take up to several hours including study and execution.  
-Personally, I wrote the programing using the Python IDLE IDE.
   
   
 # Characterizing the task
@@ -29,3 +28,8 @@ The task - please use selenium web driver with Python.
 * Open the "send to a friend" and fill in the required data.
 
 * Check if there is an error message in the captcha.
+
+
+# Notes
+* Personally, I wrote the programing using the Python IDLE IDE, but other IDEs such as PyCharm may be even better.  
+* The website may change its behavior, therefore if there is a problem with the code this must be taken into account and checked.  
