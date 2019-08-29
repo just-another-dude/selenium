@@ -86,10 +86,17 @@ comments = browser.find_element_by_name('txtRemarks')  # Comment box.
 comments.send_keys('Some comments')  # Type in some comments.
 
 
-# Verify that there is no captcha
-'''
-if browser.find_element_by_class_name('rc-anchor-center-item rc-anchor-error-message'):
-    pass  # Exception
-else:
-    raise Exception
-'''
+# Switch to captcha iframe.
+# Important Note: If there are multiple iframes, a list containg the iframe objects will be created.
+iframe = browser.find_element_by_tag_name("iframe")  # Object representing the captcha.
+browser.switch_to.frame(iframe)  # Switching to the captcha object since it's an iframe.
+
+
+# Access class using the CSS selector since selenium doesn't support compound class names (classe names with spaces)
+error_message = browser.find_element_by_css_selector('.rc-anchor-center-item.rc-anchor-error-message')
+if error_message:
+    print("There is a captcha error message:\n", error_message)
+
+
+# Switch back to main page
+browser.switch_to.default_content()
