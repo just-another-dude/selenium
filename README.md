@@ -36,6 +36,6 @@ The task - please use selenium web driver with Python.
 * Useful Links:  
   - https://www.browserstack.com/selenium  # What is Selenium?
   - https://www.edureka.co/blog/what-is-selenium/  # What is Selenium?
-  - https://realpython.com/modern-web-automation-with-python-and-selenium/  # Code exampls for Selenium.
+  - https://realpython.com/modern-web-automation-with-python-and-selenium/  # Code examples for Selenium.
   - https://www.youtube.com/watch?v=GJjMjB3rkJM  # Selenium walkthrough.
   - https://www.youtube.com/watch?v=NhRx99uFUNk  # iFrames.
