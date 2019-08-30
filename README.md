@@ -34,8 +34,8 @@ The task - please use selenium web driver with Python.
 * Personally, I wrote the programing using the Python IDLE IDE, but other IDEs such as PyCharm may be even better.  
 * The website may change its behavior, therefore if there is a problem with the code this must be taken into account and checked.  
 * Useful Links:  
-- https://www.browserstack.com/selenium
-- https://www.edureka.co/blog/what-is-selenium/
-- https://realpython.com/modern-web-automation-with-python-and-selenium/
-- https://www.youtube.com/watch?v=GJjMjB3rkJM
-- https://www.youtube.com/watch?v=NhRx99uFUNk
+  - https://www.browserstack.com/selenium  # What is Selenium?
+  - https://www.edureka.co/blog/what-is-selenium/  # What is Selenium?
+  - https://realpython.com/modern-web-automation-with-python-and-selenium/  # Code exampls for Selenium.
+  - https://www.youtube.com/watch?v=GJjMjB3rkJM  # Selenium walkthrough.
+  - https://www.youtube.com/watch?v=NhRx99uFUNk  # iFrames.
