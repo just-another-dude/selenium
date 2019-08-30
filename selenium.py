@@ -100,3 +100,8 @@ if error_message:
 
 # Switch back to main page
 browser.switch_to.default_content()
+
+
+# Close the browser session and quit the program.
+browser.close()
+quit()
